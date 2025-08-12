@@ -13,7 +13,7 @@ public class Autonomo extends LinearOpMode {
     private DcMotor roda_dir = null;
     private DcMotor braco = null;
     private DcMotor garra = null;
-    private CRServo giro_garra = null;
+    private CRServo giro_garra = null; // Servo Novo
     private CRServo coletor = null;
 
     private ElapsedTime tempo = new ElapsedTime();
